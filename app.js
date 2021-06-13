@@ -33,6 +33,6 @@ app.get("/", async (req, res) => {
     res.render("index", { events, tags, event_category, event_sub_category });
 });
 
-app.listen(process.env.port, () => {
+app.listen(process.env.PORT, () => {
     console.log("server running at port");
 });
