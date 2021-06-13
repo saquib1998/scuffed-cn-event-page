@@ -1,0 +1,45 @@
+#heading {
+    background-image: url(https://files.codingninjas.in/0000000000002471.png);
+    background-size: cover;
+    height: 10em;
+    padding-top: 25px;
+    padding-left: 15px;
+    color: white;
+}
+
+.card-link, .card-link:hover, .card-link:focus, .card-link:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.main {
+    border: 1px solid #d0d0d0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 0;
+}
+
+.card {
+    display: inline-block;
+    margin:  15px;  
+    
+}
+
+.tag {
+    background-color: rgb(185, 182, 182);
+    border: rgb(185, 182, 182);
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px auto;
+    font-size: medium;
+    padding: 3px;
+      
+}
+
+.time{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 3px none;
+    padding: 3px none;
+}
